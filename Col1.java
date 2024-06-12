@@ -4,14 +4,14 @@ public class Col1 {
     public static void main(String[] args) {
         String[] lst = new String[3];
 
-        ArrayList<String> list = new ArrayList<String>();
+        List<String> list = new ArrayList<String>();
         list.add("Apple");
         list.add("Grapes");
         list.add("Mongo");
         for (String fruit : list) {
             System.out.println(fruit);
         } 
-        ArrayList<Integer> nList = new ArrayList<Integer>();  
+        List<Integer> nList = new ArrayList<Integer>();  
         nList.add(100);
         nList.add(200);
         nList.add(300); 
